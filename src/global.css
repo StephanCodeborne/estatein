@@ -20,4 +20,5 @@
 body {
   font-family: "Urbanist";
   background-color: var(--grey-1);
+  color: var(--text-color-1);
 }
