@@ -84,3 +84,9 @@ input {
 input:focus {
   outline: none;
 }
+
+/** OTHERS */
+
+ul {
+  list-style: none;
+}
