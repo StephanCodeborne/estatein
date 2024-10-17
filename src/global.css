@@ -22,3 +22,10 @@ body {
   background-color: var(--grey-1);
   color: var(--text-color-1);
 }
+
+/** TYPOGRAPHY */
+
+h1 {
+  font-size: 3.75rem;
+  line-height: 120%;
+}
