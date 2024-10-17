@@ -90,3 +90,18 @@ input:focus {
 ul {
   list-style: none;
 }
+
+/** GLOBAL CLASSES */
+
+.section-container {
+  display: flex;
+  margin-bottom: 6.875rem;
+}
+
+.common-border {
+  border: 1px solid var(--grey-3);
+}
+
+.common-border-radius {
+  border-radius: 12px;
+}
