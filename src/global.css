@@ -1,1 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --grey-1: #141414;
+  --grey-2: #1a1a1a;
+  --grey-3: #262626;
+
+  --text-color-1: #fff;
+  --text-color-2: #999;
+
+  --cta: #703bf7;
+}
