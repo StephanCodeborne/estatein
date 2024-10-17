@@ -10,3 +10,14 @@
 
   --cta: #703bf7;
 }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Urbanist";
+  background-color: var(--grey-1);
+}
