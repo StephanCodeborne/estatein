@@ -61,3 +61,26 @@ p {
   font-weight: 500;
   color: var(--text-color-2);
 }
+
+/** INTERACTIVE ELEMENTS */
+
+button {
+  cursor: pointer;
+  color: inherit;
+  font-family: "inherit";
+}
+
+a {
+  display: flex;
+  text-decoration: none;
+  color: inherit;
+}
+
+input {
+  font-family: inherit;
+  color: inherit;
+}
+
+input:focus {
+  outline: none;
+}
