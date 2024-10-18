@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --grey-1: #141414;
+  --grey-2: #1a1a1a;
+  --grey-3: #262626;
+
+  --text-color-1: #fff;
+  --text-color-2: #999;
+
+  --cta: #703bf7;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Urbanist";
+  background-color: var(--grey-1);
+  color: var(--text-color-1);
+}
+
+/** TYPOGRAPHY */
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 600;
+}
+
+h2,
+h3,
+h4 {
+  line-height: 150%;
+}
+
+h1 {
+  font-size: 3.75rem;
+  line-height: 120%;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+p {
+  font-size: 1.125rem;
+  line-height: 150%;
+  font-weight: 500;
+  color: var(--text-color-2);
+}
+
+/** INTERACTIVE ELEMENTS */
+
+button {
+  cursor: pointer;
+  color: inherit;
+  font-family: "inherit";
+}
+
+a {
+  display: flex;
+  text-decoration: none;
+  color: inherit;
+}
+
+input {
+  font-family: inherit;
+  color: inherit;
+}
+
+input:focus {
+  outline: none;
+}
+
+/** OTHERS */
+
+ul {
+  list-style: none;
+}
+
+/** GLOBAL CLASSES */
+
+.section-container {
+  display: flex;
+  margin-bottom: 6.875rem;
+}
+
+.common-border {
+  border: 1px solid var(--grey-3);
+}
+
+.common-border-radius {
+  border-radius: 12px;
+}
