@@ -8,13 +8,14 @@ export default function Button({
   className,
   children,
 }) {
-  return tag === "a" ? (
-    <a href={href} role={role} className={`${styles.button} ${className}`}>
+  const Tag = tag;
+  return (
+    <Tag
+      role={role}
+      className={`${styles.button} ${className}`}
+      {...(tag === "a" ? { href } : { type })}
+    >
       {children}
-    </a>
-  ) : tag === "button" ? (
-    <button type={type} role={role} className={`${styles.button} ${className}`}>
-      {children}
-    </button>
-  ) : null;
+    </Tag>
+  );
 }
