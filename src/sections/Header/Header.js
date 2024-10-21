@@ -1,9 +1,10 @@
 import styles from "./Header.module.css";
+import logo from "../../assets/images/logo.svg";
 
 export default function Header() {
   return (
     <header>
-      <img src="" alt="logo" className={styles.logo} />
+      <img src={logo} alt="logo" className={styles.logo} />
       <ul className={styles.links}>
         <li>
           <a href="#">Home</a>
