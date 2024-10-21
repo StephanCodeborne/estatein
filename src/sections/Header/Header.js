@@ -5,7 +5,7 @@ import SectionContent from "../../components/SectionContent/SectionContent";
 export default function Header() {
   return (
     <header className="section-container">
-      <SectionContent>
+      <SectionContent className={styles.content}>
         <a href="/">
           <img src={logo} alt="logo" className={styles.logo} />
         </a>
