@@ -9,6 +9,9 @@
   --text-color-2: #999;
 
   --cta: #703bf7;
+
+  --common-border: 1px solid var(--grey-3);
+  --common-radius: 12px;
 }
 
 * {
@@ -96,12 +99,4 @@ ul {
 .section-container {
   display: flex;
   margin-bottom: 6.875rem;
-}
-
-.common-border {
-  border: 1px solid var(--grey-3);
-}
-
-.common-border-radius {
-  border-radius: 12px;
 }

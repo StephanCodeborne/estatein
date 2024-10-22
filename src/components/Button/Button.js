@@ -6,6 +6,7 @@ export default function Button({
   role = "button",
   type = "button",
   className,
+  style = "default",
   children,
 }) {
   const Tag = tag;
