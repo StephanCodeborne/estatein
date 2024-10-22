@@ -13,16 +13,16 @@ export default function Header() {
 
         <ul className={styles.links}>
           <li>
-            <Button>Home</Button>
+            <a href="/">Home</a>
           </li>
           <li>
-            <Button>About Us</Button>
+            <a href="/">About Us</a>
           </li>
           <li>
-            <Button>Properties</Button>
+            <a href="/">Properties</a>
           </li>
           <li>
-            <Button>Services</Button>
+            <a href="/">Services</a>
           </li>
         </ul>
 
