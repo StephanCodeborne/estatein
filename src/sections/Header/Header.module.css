@@ -13,3 +13,7 @@
 .logo {
   height: 3rem;
 }
+
+header {
+  background-color: var(--grey-2);
+}
