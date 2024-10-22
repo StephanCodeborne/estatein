@@ -13,7 +13,9 @@ export default function Header() {
 
         <ul className={styles.links}>
           <li>
-            <a href="/">Home</a>
+            <a className={styles.active} href="/">
+              Home
+            </a>
           </li>
           <li>
             <a href="/">About Us</a>

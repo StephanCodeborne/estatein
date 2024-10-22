@@ -8,6 +8,29 @@
 .links {
   display: flex;
   align-items: center;
+  gap: 1rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 150%;
+
+  a {
+    padding: 0.875rem 1.5rem;
+    border-radius: var(--common-radius);
+    transition: all 0.1s ease;
+
+    &.active {
+      background-color: var(--grey-1);
+      border: var(--common-border);
+
+      &:hover {
+        background-color: var(--grey-1);
+      }
+    }
+
+    &:hover {
+      background-color: var(--grey-1);
+    }
+  }
 }
 
 .logo {
