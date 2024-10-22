@@ -13,7 +13,7 @@ export default function Button({
   return (
     <Tag
       role={role}
-      className={`${styles.button} ${className}`}
+      className={`${styles.button} ${styles[style]} ${className}`}
       {...(tag === "a" ? { href } : { type })}
     >
       {children}
