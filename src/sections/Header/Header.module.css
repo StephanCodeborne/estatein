@@ -16,11 +16,15 @@
   a {
     padding: 0.875rem 1.5rem;
     border-radius: var(--common-radius);
-    transition: all 0.1s ease;
+    border: var(--common-border);
+    border-color: transparent;
+    backface-visibility: hidden;
+    transition: all 0.15s ease;
 
     &.active {
       background-color: var(--grey-1);
       border: var(--common-border);
+      border-color: var(--cta);
 
       &:hover {
         background-color: var(--grey-1);
@@ -28,7 +32,9 @@
     }
 
     &:hover {
-      background-color: var(--grey-1);
+      /* border-color: var(--grey-3); */
+      color: var(--cta);
+      transform: translateY(-5%);
     }
   }
 }

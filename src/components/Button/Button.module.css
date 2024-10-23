@@ -9,10 +9,11 @@
 
   backface-visibility: hidden;
 
-  transition: all 0.1s ease;
+  transition: all 0.15s ease;
 
   &:hover {
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.205);
+    transform: translateY(-5%);
   }
 
   &:active {
@@ -25,9 +26,9 @@
     border: var(--common-border);
 
     &:hover {
-      background-color: var(--grey-2);
       box-shadow: 0 2px 15px rgba(0, 0, 0, 0.205);
       color: var(--cta);
+      border-color: var(--cta);
     }
   }
 
