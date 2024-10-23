@@ -1,10 +1,10 @@
-import SectionComponent from "../../components/SectionContent/SectionContent";
+import SectionContent from "../../components/SectionContent/SectionContent";
 import styles from "./Hero.module.css";
 
 export default function Hero() {
   return (
     <section id="hero" className="section-container">
-      <SectionComponent></SectionComponent>
+      <SectionContent></SectionContent>
     </section>
   );
 }
