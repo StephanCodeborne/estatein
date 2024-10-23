@@ -12,6 +12,7 @@
 
   --common-border: 1px solid var(--grey-3);
   --common-radius: 12px;
+  --common-gradient: linear-gradient(90deg, var(--grey-2) 50%, var(--grey-3));
 }
 
 * {

@@ -6,7 +6,7 @@ import heroImage from "../../assets/images/hero-section-image.png";
 export default function Hero() {
   return (
     <section id="hero" className="section-container">
-      <SectionContent>
+      <SectionContent className={styles.content}>
         <div className={styles.left}>
           <div className={styles.text}>
             <h1>Discover Your Dream Property with Estatein</h1>
@@ -21,7 +21,7 @@ export default function Hero() {
             <Button style="cta">browse properties</Button>
           </div>
 
-          <ul className={styles.achievementss}>
+          <ul className={styles.achievements}>
             <li className={styles.card}>
               <div className={styles.amount}>200+</div>
               <p>Happy Customers</p>
