@@ -26,7 +26,7 @@ export default function Hero() {
 
           <div className={styles.buttonsRow}>
             <Button>learn more</Button>
-            <Button style="cta">browse properties</Button>
+            <Button variant="cta">browse properties</Button>
           </div>
 
           <ul className={styles.achievements}>

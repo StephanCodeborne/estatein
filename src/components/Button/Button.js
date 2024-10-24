@@ -7,7 +7,7 @@ export default function Button({
   role = "button",
   type = "button",
   className,
-  style = "default",
+  variant = "default",
   children,
 }) {
   const Tag = tag;
@@ -15,7 +15,7 @@ export default function Button({
     <Tag
       onClick={onCLick}
       role={role}
-      className={`${styles.button} ${styles[style]} ${className}`}
+      className={`${styles.button} ${styles[variant]} ${className}`}
       {...(tag === "a" ? { href } : { type })}
     >
       {children}
