@@ -1,9 +1,18 @@
 import Button from "../../components/Button/Button";
 import SectionContent from "../../components/SectionContent/SectionContent";
+import Achievements from "./Achievements/Achievements";
+
 import styles from "./Hero.module.css";
+
 import heroImage from "../../assets/images/hero-section-image.png";
 import abstractShape from "../../assets/images/abstract-shape-hero.svg";
 import widget from "../../assets/images/widget.png";
+
+const achievementsData = [
+  { amount: "200+", title: "Happy Customers" },
+  { amount: "10k+", title: "Properties For Clients" },
+  { amount: "16+", title: "Years of Experience" },
+];
 
 export default function Hero() {
   return (
@@ -29,20 +38,7 @@ export default function Hero() {
             <Button variant="cta">browse properties</Button>
           </div>
 
-          <ul className={styles.achievements}>
-            <li className={styles.card}>
-              <div className={styles.amount}>200+</div>
-              <p>Happy Customers</p>
-            </li>
-            <li className={styles.card}>
-              <div className={styles.amount}>10k+</div>
-              <p>Properties For Clients</p>
-            </li>
-            <li className={styles.card}>
-              <div className={styles.amount}>16+</div>
-              <p>Years of Experience</p>
-            </li>
-          </ul>
+          <Achievements data={achievementsData} />
         </div>
       </SectionContent>
 

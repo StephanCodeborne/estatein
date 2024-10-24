@@ -27,26 +27,6 @@
   gap: 1.25rem;
 }
 
-.achievements {
-  display: flex;
-  gap: 1.25rem;
-}
-
-.card {
-  padding: 1rem 1.5rem;
-  flex: 1;
-
-  border: var(--common-border);
-  border-radius: var(--common-radius);
-  background-image: var(--common-gradient);
-}
-
-.amount {
-  font-size: 2.5rem;
-  line-height: 150%;
-  font-weight: 700;
-}
-
 .circle {
   position: absolute;
   z-index: 3;
