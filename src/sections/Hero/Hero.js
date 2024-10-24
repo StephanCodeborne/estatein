@@ -3,6 +3,7 @@ import SectionContent from "../../components/SectionContent/SectionContent";
 import styles from "./Hero.module.css";
 import heroImage from "../../assets/images/hero-section-image.png";
 import abstractShape from "../../assets/images/abstract-shape-hero.svg";
+import widget from "../../assets/images/widget.png";
 
 export default function Hero() {
   return (
@@ -15,6 +16,10 @@ export default function Hero() {
               Your journey to finding the perfect property begins here. Explore
               our listings to find the home that matches your dreams.
             </p>
+
+            <div className={styles.circle}>
+              <img src={widget} alt="discover your dream property" />
+            </div>
           </div>
 
           <div className={styles.buttonsRow}>
@@ -38,6 +43,7 @@ export default function Hero() {
           </ul>
         </div>
       </SectionContent>
+
       <div className={styles.right}>
         <img className={styles.image} src={heroImage} alt="cool building" />
         <img
