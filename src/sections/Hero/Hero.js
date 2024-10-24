@@ -36,11 +36,10 @@ export default function Hero() {
             </li>
           </ul>
         </div>
-
-        <div className={styles.right}>
-          <img className={styles.image} src={heroImage} alt="cool building" />
-        </div>
       </SectionContent>
+      <div className={styles.right}>
+        <img className={styles.image} src={heroImage} alt="cool building" />
+      </div>
     </section>
   );
 }

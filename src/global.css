@@ -105,3 +105,7 @@ ul {
   display: flex;
   margin-bottom: 6.875rem;
 }
+
+header.section-container {
+  margin-bottom: 0;
+}
