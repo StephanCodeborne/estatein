@@ -2,6 +2,7 @@ import Button from "../../components/Button/Button";
 import SectionContent from "../../components/SectionContent/SectionContent";
 import styles from "./Hero.module.css";
 import heroImage from "../../assets/images/hero-section-image.png";
+import abstractShape from "../../assets/images/abstract-shape-hero.svg";
 
 export default function Hero() {
   return (
@@ -39,6 +40,11 @@ export default function Hero() {
       </SectionContent>
       <div className={styles.right}>
         <img className={styles.image} src={heroImage} alt="cool building" />
+        <img
+          className={styles.shape}
+          src={abstractShape}
+          alt="abstract shape on the background"
+        />
       </div>
     </section>
   );
