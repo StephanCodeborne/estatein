@@ -18,7 +18,9 @@ export default function Hero() {
             </p>
 
             <div className={styles.circle}>
-              <img src={widget} alt="discover your dream property" />
+              <a href="#">
+                <img src={widget} alt="discover your dream property" />
+              </a>
             </div>
           </div>
 

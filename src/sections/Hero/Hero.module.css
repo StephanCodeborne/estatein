@@ -49,7 +49,7 @@
 
 .circle {
   position: absolute;
-  z-index: 2;
+  z-index: 3;
   top: 0;
   left: 100%;
   animation: spin infinite linear 20s;
