@@ -1,0 +1,38 @@
+.button {
+  border-radius: var(--common-radius);
+  padding: 1rem 1.5rem;
+
+  text-transform: capitalize;
+  font-size: 1.125rem;
+  line-height: 150%;
+  font-weight: 500;
+
+  backface-visibility: hidden;
+
+  transition: all 0.15s ease;
+
+  &:hover {
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.205);
+    transform: translateY(-5%);
+  }
+
+  &:active {
+    transform: scale(0.98);
+    box-shadow: none;
+  }
+
+  &.default {
+    background-color: var(--grey-1);
+    border: var(--common-border);
+
+    &:hover {
+      box-shadow: 0 2px 15px rgba(0, 0, 0, 0.205);
+      color: var(--cta);
+      border-color: var(--cta);
+    }
+  }
+
+  &.cta {
+    background-color: var(--cta);
+  }
+}

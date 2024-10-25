@@ -9,6 +9,14 @@
   --text-color-2: #999;
 
   --cta: #703bf7;
+
+  --common-border: 1px solid var(--grey-3);
+  --common-radius: 12px;
+  --common-gradient: linear-gradient(90deg, var(--grey-2) 50%, var(--grey-3));
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 * {
@@ -91,17 +99,13 @@ ul {
   list-style: none;
 }
 
-/** GLOBAL CLASSES */
+/** GLOBAL CLASSES AND STYLES */
 
 .section-container {
   display: flex;
   margin-bottom: 6.875rem;
 }
 
-.common-border {
-  border: 1px solid var(--grey-3);
-}
-
-.common-border-radius {
-  border-radius: 12px;
+header.section-container {
+  margin-bottom: 0;
 }
