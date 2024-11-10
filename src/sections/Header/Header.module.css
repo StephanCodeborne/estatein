@@ -40,4 +40,5 @@
 
 header {
   background-color: var(--grey-2);
+  border: var(--common-border);
 }
