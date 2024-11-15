@@ -1,27 +1,8 @@
 .text {
   max-width: 47.375rem;
-  position: relative;
 
   p {
     margin-top: 1.5rem;
   }
 }
 
-.circle {
-  position: absolute;
-  z-index: 3;
-  top: 0;
-  left: 100%;
-  animation: spin infinite linear 20s;
-
-  img {
-    width: 8.063rem;
-    object-fit: cover;
-  }
-}
-
-@keyframes spin {
-  100% {
-    transform: rotate(-360deg);
-  }
-}
