@@ -9,33 +9,37 @@ import heroImage from "../../assets/images/hero-section-image.png";
 import abstractShape from "../../assets/images/abstract-shape-hero.svg";
 
 const achievementsData = [
-  { amount: "200+", title: "Happy Customers" },
-  { amount: "10k+", title: "Properties For Clients" },
-  { amount: "16+", title: "Years of Experience" },
+    { amount: "200+", title: "Happy Customers" },
+    { amount: "10k+", title: "Properties For Clients" },
+    { amount: "16+", title: "Years of Experience" },
 ];
 
 export default function Hero() {
-  return (
-    <section id="hero" className="section-container">
-      <SectionContent className={styles.content}>
-        <div className={styles.left}>
-          <HeroText />
-          <div className={styles.buttonsRow}>
-            <Button>learn more</Button>
-            <Button variant="cta">browse properties</Button>
-          </div>
-          <Achievements data={achievementsData} />
-        </div>
-      </SectionContent>
+    return (
+        <section id="hero" className="section-container">
+            <SectionContent className={styles.content}>
+                <div className={styles.left}>
+                    <HeroText />
+                    <div className={styles.buttonsRow}>
+                        <Button>learn more</Button>
+                        <Button variant="cta">browse properties</Button>
+                    </div>
+                    <Achievements data={achievementsData} />
+                </div>
+            </SectionContent>
 
-      <div className={styles.right}>
-        <img className={styles.image} src={heroImage} alt="cool building" />
-        <img
-          className={styles.shape}
-          src={abstractShape}
-          alt="abstract shape on the background"
-        />
-      </div>
-    </section>
-  );
+            <div
+                className={styles.right}
+                style={{
+                    background: `url(${abstractShape}) center center /cover no-repeat var(--grey-2)`,
+                }}
+            >
+                <img
+                    className={styles.image}
+                    src={heroImage}
+                    alt="cool building"
+                />
+            </div>
+        </section>
+    );
 }
