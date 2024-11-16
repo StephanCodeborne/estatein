@@ -1,0 +1,55 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.125rem 0;
+    position: relative;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    gap: max(0.625rem, 6px);
+    color: var(--text-color-1);
+
+    p {
+        color: inherit;
+    }
+
+    a {
+        text-decoration: underline;
+        font-size: 1.125rem;
+        line-height: 150%;
+        transition: color 0.1s ease;
+
+        &:hover {
+            color: var(--cta);
+        }
+    }
+}
+
+.closeBanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.625rem;
+
+    position: absolute;
+    right: 2rem;
+
+    aspect-ratio: 1;
+    width: 2rem;
+    min-width: 26px;
+    border-radius: 50%;
+    border: none;
+    background-color: #FFFFFF10;
+    transition: background-color 0.1s ease;
+
+    &:hover {
+        background-color: var(--cta);
+    }
+
+    img {
+        width: 100%;
+    }
+}
