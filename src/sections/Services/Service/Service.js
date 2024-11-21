@@ -1,4 +1,4 @@
-import styles from "../Service.module.css";
+import styles from "./Service.module.css";
 import { ReactComponent as Arrow } from "../../../assets/icons/arrow-top-right.svg";
 
 export default function Service({ icon, children, href }) {
