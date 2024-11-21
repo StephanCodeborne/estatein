@@ -1,0 +1,49 @@
+.service {
+	flex: 1;
+	position: relative;
+	border: var(--common-border);
+	border-radius: var(--common-radius);
+	background-image: var(--common-gradient);
+	transition: all 0.1s ease;
+
+	&:hover {
+		border-color: var(--cta);
+
+		.arrow {
+			color: var(--cta);
+		}
+	}
+
+	a {
+		width: 100%;
+		padding: 1.25rem;
+		display: flex;
+		justify-content: center;
+	}
+}
+
+.text {
+	display: flex;
+	flex-direction: column;
+	gap: 1.25rem;
+	align-items: center;
+
+	h4 {
+		text-align: center;
+	}
+}
+
+.icon {
+	width: 5.125rem;
+	aspect-ratio: 1;
+	display: block;
+}
+
+.arrow {
+	position: absolute;
+	top: 1.25rem;
+	right: 1.25rem;
+	width: 2.125rem;
+	aspect-ratio: 1;
+	color: #4d4d4d;
+}
