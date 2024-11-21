@@ -3,30 +3,11 @@ import service1 from "../../assets/icons/service-1.svg";
 import service2 from "../../assets/icons/service-2.svg";
 import service3 from "../../assets/icons/service-3.svg";
 import service4 from "../../assets/icons/service-4.svg";
-import { ReactComponent as Arrow } from "../../assets/icons/arrow-top-right.svg";
 
 export default function Services() {
     return (
         <section id="services" className={styles.container}>
             <ul className={styles.services}>
-                <li className={styles.service}>
-                    <a href="#">
-                        <div className={styles.text}>
-                            <img
-                                src={service1}
-                                alt="service icon"
-                                className={styles.icon}
-                            />
-                            <h4>Find Your Dream Home</h4>
-                        </div>
-
-                        {/*<img src={arrow} alt="arrow" className={styles.arrow} />*/}
-                        <div className={styles.arrow}>
-                            <Arrow />
-                        </div>
-                    </a>
-                </li>
-
                 <li className={styles.service}>
                     <a href="#">
                         <div className={styles.text}>
