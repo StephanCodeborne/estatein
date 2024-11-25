@@ -1,0 +1,11 @@
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+}
+
+.text {
+	p {
+		margin-top: 0.875rem;
+	}
+}
