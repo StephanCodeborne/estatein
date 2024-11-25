@@ -1,0 +1,13 @@
+.content {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	gap: 0.875rem;
+}
+
+.icon {
+	position: absolute;
+	top: -0.625rem;
+	left: 0;
+	width: 4.25rem;
+}
