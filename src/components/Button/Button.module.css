@@ -1,6 +1,9 @@
 .button {
   border-radius: var(--common-radius);
   padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   text-transform: capitalize;
   font-size: 1.125rem;
