@@ -7,7 +7,7 @@ import Button from "../../components/Button/Button";
 export default function FeaturedProperties({}) {
     return (
         <section id="featured-properties" className="section-container">
-            <InnerContainer>
+            <InnerContainer className={styles.innerContainer}>
                 <CommonContent>
                     <IntroText
                         heading="Featured Properties"
