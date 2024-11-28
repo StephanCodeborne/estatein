@@ -1,3 +1,28 @@
 .innerContainer {
 	padding-top: 6.875rem;
 }
+
+.info {
+	display: flex;
+	align-items: center;
+	gap: 0.625rem;
+
+	span {
+		padding: 0.5rem 0.875rem;
+		display: flex;
+		align-items: center;
+		gap: 0.25rem;
+
+		font-size: 1.125rem;
+		font-weight: 500;
+		line-height: 150%;
+
+		background-color: var(--grey-2);
+		border: var(--common-border);
+		border-radius: 28px;
+
+		img {
+			width: 1.5rem;
+		}
+	}
+}
