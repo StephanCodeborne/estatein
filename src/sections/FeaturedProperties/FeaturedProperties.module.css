@@ -9,6 +9,20 @@
 	gap: 1.875rem;
 }
 
+.card {
+	padding: 2.5rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1.875rem;
+
+	border: var(--common-border);
+	border-radius: var(--common-radius);
+
+	img {
+		object-fit: cover;
+		border-radius: 10px;
+	}
+}
 
 .info {
 	display: flex;
