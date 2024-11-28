@@ -35,9 +35,11 @@ export default function FeaturedProperties({}) {
                             />
 
                             <div className={styles.text}>
-                                <h3></h3>
+                                <h3>Seaside Serenity Villa</h3>
                                 <p>
-                                    ... <a href="#">Read More</a>
+                                    A stunning 4-bedroom, 3-bathroom villa in a
+                                    peaceful suburban neighborhood...{" "}
+                                    <a href="#">Read More</a>
                                 </p>
                             </div>
 
@@ -59,9 +61,11 @@ export default function FeaturedProperties({}) {
                             />
 
                             <div className={styles.text}>
-                                <h3></h3>
+                                <h3>Metropolitan Haven</h3>
                                 <p>
-                                    ... <a href="#">Read More</a>
+                                    A chic and fully-furnished 2-bedroom
+                                    apartment with panoramic city views...{" "}
+                                    <a href="#">Read More</a>
                                 </p>
                             </div>
 
@@ -83,9 +87,11 @@ export default function FeaturedProperties({}) {
                             />
 
                             <div className={styles.text}>
-                                <h3></h3>
+                                <h3>Rustic Retreat Cottage</h3>
                                 <p>
-                                    ... <a href="#">Read More</a>
+                                    An elegant 3-bedroom, 2.5-bathroom townhouse
+                                    in a gated community...{" "}
+                                    <a href="#">Read More</a>
                                 </p>
                             </div>
 
