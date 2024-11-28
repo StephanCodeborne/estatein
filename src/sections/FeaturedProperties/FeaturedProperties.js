@@ -3,6 +3,9 @@ import styles from "./FeaturedProperties.module.css";
 import property1 from "../../assets/images/property-1.png";
 import property2 from "../../assets/images/property-2.png";
 import property3 from "../../assets/images/property-3.png";
+import bed from "../../assets/icons/bed.svg";
+import bathroom from "../../assets/icons/bathroom.svg";
+import villa from "../../assets/icons/villa.svg";
 
 import InnerContainer from "../../components/InnerContainer/InnerContainer";
 import CommonContent from "../../components/CommonContent/CommonContent";
@@ -44,9 +47,18 @@ export default function FeaturedProperties({}) {
                             </div>
 
                             <div className={styles.info}>
-                                <span>4-Bedroom</span>
-                                <span>3-Bathroom</span>
-                                <span>Villa</span>
+                                <span>
+                                    <img src={bed} alt="bed" />
+                                    4-Bedroom
+                                </span>
+                                <span>
+                                    <img src={bathroom} alt="bathroom" />
+                                    3-Bathroom
+                                </span>
+                                <span>
+                                    <img src={villa} alt="villa" />
+                                    Villa
+                                </span>
                             </div>
 
                             <div className={styles.footer}>
@@ -74,9 +86,18 @@ export default function FeaturedProperties({}) {
                             </div>
 
                             <div className={styles.info}>
-                                <span>2-Bedroom</span>
-                                <span>2-Bathroom</span>
-                                <span>Villa</span>
+                                <span>
+                                    <img src={bed} alt="bed" />
+                                    2-Bedroom
+                                </span>
+                                <span>
+                                    <img src={bathroom} alt="bathroom" />
+                                    2-Bathroom
+                                </span>
+                                <span>
+                                    <img src={villa} alt="villa" />
+                                    Villa
+                                </span>
                             </div>
 
                             <div className={styles.footer}>
@@ -104,9 +125,18 @@ export default function FeaturedProperties({}) {
                             </div>
 
                             <div className={styles.info}>
-                                <span>3-Bedroom</span>
-                                <span>3-Bathroom</span>
-                                <span>Villa</span>
+                                <span>
+                                    <img src={bed} alt="bed" />
+                                    3-Bedroom
+                                </span>
+                                <span>
+                                    <img src={bathroom} alt="bathroom" />
+                                    3-Bathroom
+                                </span>
+                                <span>
+                                    <img src={villa} alt="villa" />
+                                    Villa
+                                </span>
                             </div>
 
                             <div className={styles.footer}>
