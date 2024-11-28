@@ -62,7 +62,10 @@ export default function FeaturedProperties({}) {
                             </div>
 
                             <div className={styles.footer}>
-                                <div className={styles.price}></div>
+                                <div className={styles.price}>
+                                    <p className={styles.caption}>Price</p>
+                                    <h3>$550,000</h3>
+                                </div>
                                 <Button href="#" variant="cta">
                                     View Property Details
                                 </Button>
@@ -101,7 +104,10 @@ export default function FeaturedProperties({}) {
                             </div>
 
                             <div className={styles.footer}>
-                                <div className={styles.price}></div>
+                                <div className={styles.price}>
+                                    <p className={styles.caption}>Price</p>
+                                    <h3>$550,000</h3>
+                                </div>
                                 <Button href="#" variant="cta">
                                     View Property Details
                                 </Button>
@@ -140,7 +146,10 @@ export default function FeaturedProperties({}) {
                             </div>
 
                             <div className={styles.footer}>
-                                <div className={styles.price}></div>
+                                <div className={styles.price}>
+                                    <p className={styles.caption}>Price</p>
+                                    <h3>$550,000</h3>
+                                </div>
                                 <Button href="#" variant="cta">
                                     View Property Details
                                 </Button>
