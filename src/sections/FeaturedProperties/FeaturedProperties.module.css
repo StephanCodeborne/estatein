@@ -2,6 +2,8 @@
 	padding-top: 6.875rem;
 }
 
+
+
 .info {
 	display: flex;
 	align-items: center;
@@ -25,4 +27,9 @@
 			width: 1.5rem;
 		}
 	}
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
 }
