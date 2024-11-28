@@ -1,4 +1,9 @@
 import styles from "./FeaturedProperties.module.css";
+
+import property1 from "../../assets/images/property-1.png";
+import property2 from "../../assets/images/property-2.png";
+import property3 from "../../assets/images/property-3.png";
+
 import InnerContainer from "../../components/InnerContainer/InnerContainer";
 import CommonContent from "../../components/CommonContent/CommonContent";
 import IntroText from "../../components/IntroText/IntroText";
@@ -23,11 +28,17 @@ export default function FeaturedProperties({}) {
 
                     <ul className={styles.properties}>
                         <li className={styles.card}>
-                            <img src="" alt="property image" />
+                            <img
+                                src={property1}
+                                alt="property image"
+                                className={styles.image}
+                            />
 
                             <div className={styles.text}>
                                 <h3></h3>
-                                <p></p>
+                                <p>
+                                    ... <a href="#">Read More</a>
+                                </p>
                             </div>
 
                             <div className={styles.info}></div>
@@ -41,11 +52,17 @@ export default function FeaturedProperties({}) {
                         </li>
 
                         <li className={styles.card}>
-                            <img src="" alt="property image" />
+                            <img
+                                src={property2}
+                                alt="property image"
+                                className={styles.image}
+                            />
 
                             <div className={styles.text}>
                                 <h3></h3>
-                                <p></p>
+                                <p>
+                                    ... <a href="#">Read More</a>
+                                </p>
                             </div>
 
                             <div className={styles.info}></div>
@@ -59,11 +76,17 @@ export default function FeaturedProperties({}) {
                         </li>
 
                         <li className={styles.card}>
-                            <img src="" alt="property image" />
+                            <img
+                                src={property3}
+                                alt="property image"
+                                className={styles.image}
+                            />
 
                             <div className={styles.text}>
                                 <h3></h3>
-                                <p></p>
+                                <p>
+                                    ... <a href="#">Read More</a>
+                                </p>
                             </div>
 
                             <div className={styles.info}></div>
