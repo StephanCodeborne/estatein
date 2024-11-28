@@ -43,7 +43,11 @@ export default function FeaturedProperties({}) {
                                 </p>
                             </div>
 
-                            <div className={styles.info}></div>
+                            <div className={styles.info}>
+                                <span>4-Bedroom</span>
+                                <span>3-Bathroom</span>
+                                <span>Villa</span>
+                            </div>
 
                             <div className={styles.footer}>
                                 <div className={styles.price}></div>
@@ -69,7 +73,11 @@ export default function FeaturedProperties({}) {
                                 </p>
                             </div>
 
-                            <div className={styles.info}></div>
+                            <div className={styles.info}>
+                                <span>2-Bedroom</span>
+                                <span>2-Bathroom</span>
+                                <span>Villa</span>
+                            </div>
 
                             <div className={styles.footer}>
                                 <div className={styles.price}></div>
@@ -95,7 +103,11 @@ export default function FeaturedProperties({}) {
                                 </p>
                             </div>
 
-                            <div className={styles.info}></div>
+                            <div className={styles.info}>
+                                <span>3-Bedroom</span>
+                                <span>3-Bathroom</span>
+                                <span>Villa</span>
+                            </div>
 
                             <div className={styles.footer}>
                                 <div className={styles.price}></div>
