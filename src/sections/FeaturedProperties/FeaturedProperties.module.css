@@ -5,11 +5,13 @@
 .properties {
 	margin-top: 5rem;
 	display: flex;
-	align-items: center;
 	gap: 1.875rem;
+	overflow: hidden;
 }
 
 .card {
+	flex-shrink: 0;
+	width: clamp(358px, 30vw, 512px);
 	padding: 2.5rem;
 	display: flex;
 	flex-direction: column;
