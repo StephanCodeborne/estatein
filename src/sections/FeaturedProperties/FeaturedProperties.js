@@ -155,6 +155,48 @@ export default function FeaturedProperties({}) {
                                 </Button>
                             </div>
                         </li>
+
+                        <li className={styles.card}>
+                            <img
+                                src={property3}
+                                alt="property image"
+                                className={styles.image}
+                            />
+
+                            <div className={styles.text}>
+                                <h3>Rustic Retreat Cottage</h3>
+                                <p>
+                                    An elegant 3-bedroom, 2.5-bathroom townhouse
+                                    in a gated community...{" "}
+                                    <a href="#">Read More</a>
+                                </p>
+                            </div>
+
+                            <div className={styles.info}>
+                                <span>
+                                    <img src={bed} alt="bed" />
+                                    3-Bedroom
+                                </span>
+                                <span>
+                                    <img src={bathroom} alt="bathroom" />
+                                    3-Bathroom
+                                </span>
+                                <span>
+                                    <img src={villa} alt="villa" />
+                                    Villa
+                                </span>
+                            </div>
+
+                            <div className={styles.footer}>
+                                <div className={styles.price}>
+                                    <p className={styles.caption}>Price</p>
+                                    <h3>$550,000</h3>
+                                </div>
+                                <Button href="#" variant="cta">
+                                    View Property Details
+                                </Button>
+                            </div>
+                        </li>
                     </ul>
                 </CommonContent>
             </InnerContainer>
