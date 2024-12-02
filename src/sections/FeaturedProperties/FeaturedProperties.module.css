@@ -97,6 +97,17 @@
 					transform: rotate(180deg);
 				}
 			}
+
+			&:disabled {
+				background-color: var(--grey-1);
+				color: #808080;
+
+				&:hover {
+					border: var(--common-border);
+					transform: none;
+					box-shadow: none;
+				}
+			}
 		}
 	}
 }
