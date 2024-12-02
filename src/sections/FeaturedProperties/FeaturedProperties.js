@@ -211,10 +211,14 @@ export default function FeaturedProperties({}) {
                         <div className={styles.tools}>
                             <div className={styles.slideNumber}> 01 of 10</div>
                             <div className={styles.arrows}>
-                                <Button tag="button" onCLick={handlePrev}>
+                                <Button
+                                    tag="button"
+                                    onClick={handlePrev}
+                                    disabled={true}
+                                >
                                     <Arrow />
                                 </Button>
-                                <Button tag="button" onCLick={handleNext}>
+                                <Button tag="button" onClick={handleNext}>
                                     <Arrow />
                                 </Button>
                             </div>
