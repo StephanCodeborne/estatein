@@ -80,6 +80,17 @@
 	justify-content: space-between;
 	align-items: center;
 
+	.slideNumber {
+		color: var(--text-color-2);
+		font-weight: 500;
+		font-size: 1rem;
+		line-height: 150%;
+
+		span {
+			color: var(--text-color-1);
+		}
+	}
+
 	.arrows {
 		display: flex;
 		gap: 0.625rem;
