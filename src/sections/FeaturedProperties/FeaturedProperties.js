@@ -209,7 +209,10 @@ export default function FeaturedProperties({}) {
                             </li>
                         </ul>
                         <div className={styles.tools}>
-                            <div className={styles.slideNumber}> 01 of 10</div>
+                            <div className={styles.slideNumber}>
+                                <span className={styles.currentSlide}>01</span>{" "}
+                                of 10
+                            </div>
                             <div className={styles.arrows}>
                                 <Button
                                     tag="button"
