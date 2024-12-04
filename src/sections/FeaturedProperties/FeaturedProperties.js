@@ -12,6 +12,7 @@ import InnerContainer from "../../components/InnerContainer/InnerContainer";
 import CommonContent from "../../components/CommonContent/CommonContent";
 import IntroText from "../../components/IntroText/IntroText";
 import Button from "../../components/Button/Button";
+import Properties from "../../components/Properties/Properties";
 
 const properties = [
     {
@@ -81,6 +82,8 @@ export default function FeaturedProperties({}) {
                     </IntroText>
 
                     <div className={styles.slider}>
+                        <Properties properties={properties} />
+
                         <div className={styles.tools}>
                             <div className={styles.slideNumber}>
                                 <span className={styles.currentSlide}>01</span>{" "}
