@@ -31,6 +31,11 @@
 			text-decoration: underline;
 			color: var(--text-color-1);
 			display: inline;
+			transition: color 0.1s ease;
+
+			&:hover {
+				color: var(--cta);
+			}
 		}
 	}
 }
