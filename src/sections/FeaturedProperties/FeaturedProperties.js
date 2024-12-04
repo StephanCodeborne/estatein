@@ -3,9 +3,6 @@ import styles from "./FeaturedProperties.module.css";
 import property1 from "../../assets/images/property-1.png";
 import property2 from "../../assets/images/property-2.png";
 import property3 from "../../assets/images/property-3.png";
-import bed from "../../assets/icons/bed.svg";
-import bathroom from "../../assets/icons/bathroom.svg";
-import villa from "../../assets/icons/villa.svg";
 import { ReactComponent as Arrow } from "../../assets/icons/arrow-right.svg";
 
 import InnerContainer from "../../components/InnerContainer/InnerContainer";
