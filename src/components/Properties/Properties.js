@@ -26,7 +26,7 @@ function Property({ image, title, description, info, price, href }) {
             <div className={styles.text}>
                 <h3>{title}</h3>
                 <p>
-                    {description} <a href="#">Read More</a>
+                    {description}... <a href="#">Read More</a>
                 </p>
             </div>
 
