@@ -1,5 +1,5 @@
 import Button from "../../components/Button/Button";
-import SectionContent from "../../components/SectionContent/SectionContent";
+import InnerContainer from "../../components/InnerContainer/InnerContainer";
 import HeroText from "./HeroText/HeroText";
 import Achievements from "./Achievements/Achievements";
 
@@ -17,7 +17,7 @@ const achievementsData = [
 export default function Hero() {
     return (
         <section id="hero" className="section-container">
-            <SectionContent className={styles.content}>
+            <InnerContainer className={styles.content}>
                 <div className={styles.left}>
                     <HeroText />
                     <div className={styles.buttonsRow}>
@@ -26,7 +26,7 @@ export default function Hero() {
                     </div>
                     <Achievements data={achievementsData} />
                 </div>
-            </SectionContent>
+            </InnerContainer>
 
             <div
                 className={styles.right}

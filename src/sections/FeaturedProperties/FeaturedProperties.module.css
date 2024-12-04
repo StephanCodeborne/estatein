@@ -1,0 +1,124 @@
+.innerContainer {
+	padding-top: 6.875rem;
+}
+
+
+
+.properties {
+	margin-top: 5rem;
+	display: flex;
+	gap: 1.875rem;
+	overflow: hidden;
+}
+
+.card {
+	flex-shrink: 0;
+	width: clamp(358px, 30vw, 512px);
+	padding: 2.5rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1.875rem;
+
+	border: var(--common-border);
+	border-radius: var(--common-radius);
+
+	img {
+		object-fit: cover;
+		border-radius: 10px;
+		width: 100%;
+	}
+}
+
+.text {
+	p {
+		margin-top: 0.375rem;
+
+		a {
+			text-decoration: underline;
+			color: var(--text-color-1);
+			display: inline;
+		}
+	}
+}
+
+.info {
+	display: flex;
+	align-items: center;
+	gap: 0.625rem;
+
+	span {
+		padding: 0.5rem 0.875rem;
+		display: flex;
+		align-items: center;
+		gap: 0.25rem;
+
+		font-size: 1.125rem;
+		font-weight: 500;
+		line-height: 150%;
+
+		background-color: var(--grey-2);
+		border: var(--common-border);
+		border-radius: 28px;
+
+		img {
+			width: 1.5rem;
+		}
+	}
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.tools {
+	margin-top: 3.125rem;
+	padding-top: 1.25rem;
+	border-top: 1px solid var(--grey-3);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	.slideNumber {
+		color: var(--text-color-2);
+		font-weight: 500;
+		font-size: 1rem;
+		line-height: 150%;
+
+		span {
+			color: var(--text-color-1);
+		}
+	}
+
+	.arrows {
+		display: flex;
+		gap: 0.625rem;
+
+		button {
+			border-radius: 50%;
+			padding: 0.875rem;
+
+			svg {
+				width: 1.875rem;
+			}
+
+			&:first-child {
+				svg {
+					transform: rotate(180deg);
+				}
+			}
+
+			&:disabled {
+				background-color: var(--grey-1);
+				color: #808080;
+
+				&:hover {
+					border: var(--common-border);
+					transform: none;
+					box-shadow: none;
+				}
+			}
+		}
+	}
+}

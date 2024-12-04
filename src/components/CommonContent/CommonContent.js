@@ -3,13 +3,13 @@ import oversectionIcon from "../../assets/icons/oversection-icon.svg";
 
 export default function CommonContent({ className, children }) {
     return (
-        <div className={`${styles.content} ${className}`}>
+        <div>
             <img
                 className={styles.icon}
                 src={oversectionIcon}
                 alt="abstract stars"
             />
-            {children}
+            <div className=`${styles.content} ${className}`>{children}</div>
         </div>
     );
 }
