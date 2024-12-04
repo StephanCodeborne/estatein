@@ -32,7 +32,7 @@ const properties = [
         title: "Metropolitan Haven",
         description:
             "A chic and fully-furnished 2-bedroom apartment with panoramic city views",
-        image: property1,
+        image: property2,
         price: "$550,000",
         href: "#",
         info: {
@@ -45,7 +45,7 @@ const properties = [
         title: "Rustic Retreat Cottage",
         description:
             "An elegant 3-bedroom, 2.5-bathroom townhouse in a gated community",
-        image: property1,
+        image: property3,
         price: "$550,000",
         href: "#",
         info: {
