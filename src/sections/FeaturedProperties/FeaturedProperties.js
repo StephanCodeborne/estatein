@@ -13,6 +13,48 @@ import CommonContent from "../../components/CommonContent/CommonContent";
 import IntroText from "../../components/IntroText/IntroText";
 import Button from "../../components/Button/Button";
 
+const properties = [
+    {
+        title: "Seaside Serenity Villa",
+        description:
+            "A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood",
+        image: property1,
+        price: "$550,000",
+        href: "#",
+        info: {
+            bedroom: 4,
+            bathroom: 3,
+            propertyType: "Villa",
+        },
+    },
+    {
+        title: "Metropolitan Haven",
+        description:
+            "A chic and fully-furnished 2-bedroom apartment with panoramic city views",
+        image: property1,
+        price: "$550,000",
+        href: "#",
+        info: {
+            bedroom: 2,
+            bathroom: 2,
+            propertyType: "Villa",
+        },
+    },
+    {
+        title: "Rustic Retreat Cottage",
+        description:
+            "An elegant 3-bedroom, 2.5-bathroom townhouse in a gated community",
+        image: property1,
+        price: "$550,000",
+        href: "#",
+        info: {
+            bedroom: 3,
+            bathroom: 3,
+            propertyType: "Villa",
+        },
+    },
+];
+
 export default function FeaturedProperties({}) {
     function handlePrev() {
         return null;
@@ -39,175 +81,6 @@ export default function FeaturedProperties({}) {
                     </IntroText>
 
                     <div className={styles.slider}>
-                        <ul className={styles.properties}>
-                            <li className={styles.card}>
-                                <img
-                                    src={property1}
-                                    alt="property image"
-                                    className={styles.image}
-                                />
-
-                                <div className={styles.text}>
-                                    <h3>Seaside Serenity Villa</h3>
-                                    <p>
-                                        A stunning 4-bedroom, 3-bathroom villa
-                                        in a peaceful suburban neighborhood...{" "}
-                                        <a href="#">Read More</a>
-                                    </p>
-                                </div>
-
-                                <div className={styles.info}>
-                                    <span>
-                                        <img src={bed} alt="bed" />
-                                        4-Bedroom
-                                    </span>
-                                    <span>
-                                        <img src={bathroom} alt="bathroom" />
-                                        3-Bathroom
-                                    </span>
-                                    <span>
-                                        <img src={villa} alt="villa" />
-                                        Villa
-                                    </span>
-                                </div>
-
-                                <div className={styles.footer}>
-                                    <div className={styles.price}>
-                                        <p className={styles.caption}>Price</p>
-                                        <h3>$550,000</h3>
-                                    </div>
-                                    <Button href="#" variant="cta">
-                                        View Property Details
-                                    </Button>
-                                </div>
-                            </li>
-
-                            <li className={styles.card}>
-                                <img
-                                    src={property2}
-                                    alt="property image"
-                                    className={styles.image}
-                                />
-
-                                <div className={styles.text}>
-                                    <h3>Metropolitan Haven</h3>
-                                    <p>
-                                        A chic and fully-furnished 2-bedroom
-                                        apartment with panoramic city views...{" "}
-                                        <a href="#">Read More</a>
-                                    </p>
-                                </div>
-
-                                <div className={styles.info}>
-                                    <span>
-                                        <img src={bed} alt="bed" />
-                                        2-Bedroom
-                                    </span>
-                                    <span>
-                                        <img src={bathroom} alt="bathroom" />
-                                        2-Bathroom
-                                    </span>
-                                    <span>
-                                        <img src={villa} alt="villa" />
-                                        Villa
-                                    </span>
-                                </div>
-
-                                <div className={styles.footer}>
-                                    <div className={styles.price}>
-                                        <p className={styles.caption}>Price</p>
-                                        <h3>$550,000</h3>
-                                    </div>
-                                    <Button href="#" variant="cta">
-                                        View Property Details
-                                    </Button>
-                                </div>
-                            </li>
-
-                            <li className={styles.card}>
-                                <img
-                                    src={property3}
-                                    alt="property image"
-                                    className={styles.image}
-                                />
-
-                                <div className={styles.text}>
-                                    <h3>Rustic Retreat Cottage</h3>
-                                    <p>
-                                        An elegant 3-bedroom, 2.5-bathroom
-                                        townhouse in a gated community...{" "}
-                                        <a href="#">Read More</a>
-                                    </p>
-                                </div>
-
-                                <div className={styles.info}>
-                                    <span>
-                                        <img src={bed} alt="bed" />
-                                        3-Bedroom
-                                    </span>
-                                    <span>
-                                        <img src={bathroom} alt="bathroom" />
-                                        3-Bathroom
-                                    </span>
-                                    <span>
-                                        <img src={villa} alt="villa" />
-                                        Villa
-                                    </span>
-                                </div>
-
-                                <div className={styles.footer}>
-                                    <div className={styles.price}>
-                                        <p className={styles.caption}>Price</p>
-                                        <h3>$550,000</h3>
-                                    </div>
-                                    <Button href="#" variant="cta">
-                                        View Property Details
-                                    </Button>
-                                </div>
-                            </li>
-
-                            <li className={styles.card}>
-                                <img
-                                    src={property3}
-                                    alt="property image"
-                                    className={styles.image}
-                                />
-
-                                <div className={styles.text}>
-                                    <h3>Rustic Retreat Cottage</h3>
-                                    <p>
-                                        An elegant 3-bedroom, 2.5-bathroom
-                                        townhouse in a gated community...{" "}
-                                        <a href="#">Read More</a>
-                                    </p>
-                                </div>
-
-                                <div className={styles.info}>
-                                    <span>
-                                        <img src={bed} alt="bed" />
-                                        3-Bedroom
-                                    </span>
-                                    <span>
-                                        <img src={bathroom} alt="bathroom" />
-                                        3-Bathroom
-                                    </span>
-                                    <span>
-                                        <img src={villa} alt="villa" />
-                                        Villa
-                                    </span>
-                                </div>
-
-                                <div className={styles.footer}>
-                                    <div className={styles.price}>
-                                        <p className={styles.caption}>Price</p>
-                                        <h3>$550,000</h3>
-                                    </div>
-                                    <Button href="#" variant="cta">
-                                        View Property Details
-                                    </Button>
-                                </div>
-                            </li>
-                        </ul>
                         <div className={styles.tools}>
                             <div className={styles.slideNumber}>
                                 <span className={styles.currentSlide}>01</span>{" "}
