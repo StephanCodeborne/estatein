@@ -8,7 +8,6 @@ import { ReactComponent as Arrow } from "../../assets/icons/arrow-right.svg";
 import InnerContainer from "../../components/InnerContainer/InnerContainer";
 import CommonContent from "../../components/CommonContent/CommonContent";
 import IntroText from "../../components/IntroText/IntroText";
-import Button from "../../components/Button/Button";
 import Properties from "../../components/Properties/Properties";
 
 const properties = [

@@ -1,7 +1,10 @@
 import styles from "./Properties.module.css";
+
 import bed from "../../assets/icons/bed.svg";
 import bathroom from "../../assets/icons/bathroom.svg";
 import villa from "../../assets/icons/villa.svg";
+
+import Button from "../../components/Button/Button";
 
 export default function Properties({ properties }) {
     return (
