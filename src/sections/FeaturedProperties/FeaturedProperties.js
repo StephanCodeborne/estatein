@@ -3,12 +3,10 @@ import styles from "./FeaturedProperties.module.css";
 import property1 from "../../assets/images/property-1.png";
 import property2 from "../../assets/images/property-2.png";
 import property3 from "../../assets/images/property-3.png";
-import { ReactComponent as Arrow } from "../../assets/icons/arrow-right.svg";
 
 import InnerContainer from "../../components/InnerContainer/InnerContainer";
 import CommonContent from "../../components/CommonContent/CommonContent";
 import IntroText from "../../components/IntroText/IntroText";
-import Button from "../../components/Button/Button";
 import Properties from "../../components/Properties/Properties";
 import Slider from "../../components/Slider/Slider";
 

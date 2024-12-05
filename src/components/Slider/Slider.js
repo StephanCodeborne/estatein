@@ -1,5 +1,6 @@
 import styles from "./Slider.module.css";
-import Properties from "../Properties/Properties";
+
+import { ReactComponent as Arrow } from "../../assets/icons/arrow-right.svg";
 import Button from "../Button/Button";
 
 export default function Slider({ onNext, onPrev, children }) {
