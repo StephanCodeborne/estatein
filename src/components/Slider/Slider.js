@@ -19,6 +19,7 @@ export default function Slider({ children }) {
         <div className={styles.slider}>
             <div
                 style={{
+                    transition: "transform 0.45s ease-in-out",
                     transform: `translateX(calc(-${(currentSlide - 1) * 100}% - (${currentSlide} - 1) * 1.875rem )`,
                 }}
             >
