@@ -10,6 +10,7 @@ import CommonContent from "../../components/CommonContent/CommonContent";
 import IntroText from "../../components/IntroText/IntroText";
 import Button from "../../components/Button/Button";
 import Properties from "../../components/Properties/Properties";
+import Slider from "../../components/Slider/Slider";
 
 const properties = [
     {
@@ -117,28 +118,9 @@ export default function FeaturedProperties({}) {
                         Details" for more information.
                     </IntroText>
 
-                    <div className={styles.slider}>
+                    <Slider>
                         <Properties properties={properties} />
-
-                        <div className={styles.tools}>
-                            <div className={styles.slideNumber}>
-                                <span className={styles.currentSlide}>01</span>{" "}
-                                of 10
-                            </div>
-                            <div className={styles.arrows}>
-                                <Button
-                                    tag="button"
-                                    onClick={handlePrev}
-                                    disabled={true}
-                                >
-                                    <Arrow />
-                                </Button>
-                                <Button tag="button" onClick={handleNext}>
-                                    <Arrow />
-                                </Button>
-                            </div>
-                        </div>
-                    </div>
+                    </Slider>
                 </CommonContent>
             </InnerContainer>
         </section>
