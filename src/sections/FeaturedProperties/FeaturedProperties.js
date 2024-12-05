@@ -89,6 +89,45 @@ const properties = [
             propertyType: "Villa",
         },
     },
+    {
+        title: "Seaside Serenity Villa",
+        description:
+            "A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood",
+        image: property1,
+        price: "$550,000",
+        href: "#",
+        info: {
+            bedroom: 4,
+            bathroom: 3,
+            propertyType: "Villa",
+        },
+    },
+    {
+        title: "Metropolitan Haven",
+        description:
+            "A chic and fully-furnished 2-bedroom apartment with panoramic city views",
+        image: property2,
+        price: "$550,000",
+        href: "#",
+        info: {
+            bedroom: 2,
+            bathroom: 2,
+            propertyType: "Villa",
+        },
+    },
+    {
+        title: "Rustic Retreat Cottage",
+        description:
+            "An elegant 3-bedroom, 2.5-bathroom townhouse in a gated community",
+        image: property3,
+        price: "$550,000",
+        href: "#",
+        info: {
+            bedroom: 3,
+            bathroom: 3,
+            propertyType: "Villa",
+        },
+    },
 ];
 
 export default function FeaturedProperties() {
