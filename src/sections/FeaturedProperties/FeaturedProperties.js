@@ -91,15 +91,7 @@ const properties = [
     },
 ];
 
-export default function FeaturedProperties({}) {
-    function handlePrev() {
-        return null;
-    }
-
-    function handleNext() {
-        return null;
-    }
-
+export default function FeaturedProperties() {
     return (
         <section id="featured-properties" className="section-container">
             <InnerContainer className={styles.innerContainer}>
@@ -116,7 +108,7 @@ export default function FeaturedProperties({}) {
                         Details" for more information.
                     </IntroText>
 
-                    <Slider>
+                    <Slider properties={properties}>
                         <Properties properties={properties} />
                     </Slider>
                 </CommonContent>
