@@ -147,7 +147,7 @@ export default function FeaturedProperties() {
                         Details" for more information.
                     </IntroText>
 
-                    <Slider properties={properties}>
+                    <Slider list={properties}>
                         <Properties properties={properties} />
                     </Slider>
                 </CommonContent>
