@@ -31,9 +31,14 @@ export default function Slider({ children }) {
                     <span className={styles.currentSlide}>01</span> of 10
                 </div>
                 <div className={styles.arrows}>
-                    <Button tag="button" onClick={handlePrev}>
+                    <Button
+                        tag="button"
+                        onClick={handlePrev}
+                        disabled={currentSlide === 1}
+                    >
                         <Arrow />
                     </Button>
+
                     <Button tag="button" onClick={handleNext}>
                         <Arrow />
                     </Button>
