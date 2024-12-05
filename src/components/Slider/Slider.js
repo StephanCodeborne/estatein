@@ -62,7 +62,11 @@ export default function Slider({ list, children }) {
                         <Arrow />
                     </Button>
 
-                    <Button tag="button" onClick={handleNext}>
+                    <Button
+                        tag="button"
+                        onClick={handleNext}
+                        disabled={currentSlide === totalSlides}
+                    >
                         <Arrow />
                     </Button>
                 </div>
