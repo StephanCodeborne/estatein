@@ -1,20 +1,29 @@
 import styles from "./Slider.module.css";
+import { useState } from "react";
 
 import { ReactComponent as Arrow } from "../../assets/icons/arrow-right.svg";
 import Button from "../Button/Button";
 
 export default function Slider({ children }) {
+    const [currentSlide, setCurrentSlide] = useState(1);
+
     function handlePrev() {
-        return null;
+        setCurrentSlide((curr) => curr - 1);
     }
 
     function handleNext() {
-        return null;
+        setCurrentSlide((curr) => curr + 1);
     }
 
     return (
         <div className={styles.slider}>
-            <div>{children}</div>
+            <div
+                style={{
+                    transform: `translateX(-${(currentSlide - 1) * 100}%)`,
+                }}
+            >
+                {children}
+            </div>
 
             <div className={styles.tools}>
                 <div className={styles.slideNumber}>
