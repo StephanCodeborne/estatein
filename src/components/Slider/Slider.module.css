@@ -1,3 +1,7 @@
+.slider {
+	overflow: hidden;
+}
+
 .tools {
 	margin-top: 3.125rem;
 	padding-top: 1.25rem;
