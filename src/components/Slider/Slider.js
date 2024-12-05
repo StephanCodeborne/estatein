@@ -19,7 +19,7 @@ export default function Slider({ children }) {
         <div className={styles.slider}>
             <div
                 style={{
-                    transform: `translateX(-${(currentSlide - 1) * 100}%)`,
+                    transform: `translateX(calc(-${(currentSlide - 1) * 100}% - (${currentSlide} - 1) * 1.875rem )`,
                 }}
             >
                 {children}
