@@ -27,7 +27,7 @@ export default function Slider({ list, children }) {
         return () => window.removeEventListener("resize", updateCardsPerSlide);
     }, []);
 
-    const totalSlides = properties.length / cardsPerSlide;
+    const totalSlides = list.length / cardsPerSlide;
 
     function handlePrev() {
         setCurrentSlide((curr) => curr - 1);
