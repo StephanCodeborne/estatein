@@ -1,11 +1,33 @@
 import styles from "./Slider.module.css";
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 
 import { ReactComponent as Arrow } from "../../assets/icons/arrow-right.svg";
 import Button from "../Button/Button";
 
-export default function Slider({ children }) {
+export default function Slider({ list, children }) {
     const [currentSlide, setCurrentSlide] = useState(1);
+    const [cardsPerSlide, setCardsPerSlide] = useState(1);
+    const sliderRef = useRef();
+
+    // Calculate the number of cards per slide
+    useEffect(() => {
+        function updateCardsPerSlide() {
+            const transformDiv = sliderRef.current.firstElementChild; // div for transform translate
+            const firstCard = transformDiv.firstElementChild?.firstElementChild; // Access the card in a list
+
+            const sliderWidth = sliderRef.current.offsetWidth; // Width of slider
+            const cardWidth = firstCard?.offsetWidth; // Width of the first card
+
+            if (cardWidth) {
+                setCardsPerSlide(Math.floor(sliderWidth / cardWidth)); // Calculate cards per slide}
+            }
+        }
+        updateCardsPerSlide();
+        window.addEventListener("resize", updateCardsPerSlide);
+        return () => window.removeEventListener("resize", updateCardsPerSlide);
+    }, []);
+
+    const totalSlides = properties.length / cardsPerSlide;
 
     function handlePrev() {
         setCurrentSlide((curr) => curr - 1);
@@ -16,7 +38,7 @@ export default function Slider({ children }) {
     }
 
     return (
-        <div className={styles.slider}>
+        <div ref={sliderRef} className={styles.slider}>
             <div
                 style={{
                     transition: "transform 0.45s ease-in-out",
@@ -28,7 +50,8 @@ export default function Slider({ children }) {
 
             <div className={styles.tools}>
                 <div className={styles.slideNumber}>
-                    <span className={styles.currentSlide}>01</span> of 10
+                    <span className={styles.currentSlide}>{currentSlide}</span>{" "}
+                    of {totalSlides}
                 </div>
                 <div className={styles.arrows}>
                     <Button
