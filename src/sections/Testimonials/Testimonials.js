@@ -12,7 +12,7 @@ import IntroText from "../../components/IntroText/IntroText";
 export default function Testimonials() {
     return (
         <section id="testimonials" className="section-container">
-            <InnerContainer>
+            <InnerContainer className={styles.innerContainer}>
                 <CommonContent>
                     <IntroText
                         heading="What Our Clients Say"
