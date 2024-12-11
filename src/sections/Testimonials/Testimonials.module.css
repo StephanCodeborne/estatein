@@ -1,3 +1,8 @@
 .innerContainer {
 	margin-top: var(--common-margin-top);
 }
+
+.testimonials {
+	display: flex;
+	gap: var(--common-gap);
+}
