@@ -1,6 +1,9 @@
 import styles from "./Testimonials.module.css";
 
 import { ReactComponent as Star } from "../../assets/icons/star.svg";
+import clientAvatar1 from "../../assets/images/client-avatar1.png";
+import clientAvatar2 from "../../assets/images/client-avatar2.png";
+import clientAvatar3 from "../../assets/images/client-avatar3.png";
 
 import InnerContainer from "../../components/InnerContainer/InnerContainer";
 import CommonContent from "../../components/CommonContent/CommonContent";
@@ -46,7 +49,7 @@ export default function Testimonials() {
 
                             <div className={styles.client}>
                                 <img
-                                    src=""
+                                    src={clientAvatar1}
                                     alt="avatar"
                                     className={styles.avatar}
                                 />
