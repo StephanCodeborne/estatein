@@ -6,3 +6,15 @@
 	display: flex;
 	gap: var(--common-gap);
 }
+
+.card {
+	flex-shrink: 0;
+	width: var(--card-width-clamp);
+	padding: 3.125rem;
+	display: flex;
+	flex-direction: column;
+	gap: 2.5rem;
+
+	border: var(--common-border);
+	border-radius: var(--common-radius);
+}
