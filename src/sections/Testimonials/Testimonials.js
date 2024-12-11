@@ -1,4 +1,7 @@
 import styles from "./Testimonials.module.css";
+
+import { ReactComponent as Star } from "../../assets/icons/star.svg";
+
 import InnerContainer from "../../components/InnerContainer/InnerContainer";
 import CommonContent from "../../components/CommonContent/CommonContent";
 import IntroText from "../../components/IntroText/IntroText";
@@ -22,31 +25,11 @@ export default function Testimonials() {
                     <ul className={styles.testimonials}>
                         <li className={styles.card}>
                             <div className={styles.stars}>
-                                <img
-                                    src=""
-                                    alt="full star"
-                                    className={styles.star}
-                                />
-                                <img
-                                    src=""
-                                    alt="full star"
-                                    className={styles.star}
-                                />
-                                <img
-                                    src=""
-                                    alt="full star"
-                                    className={styles.star}
-                                />
-                                <img
-                                    src=""
-                                    alt="full star"
-                                    className={styles.star}
-                                />
-                                <img
-                                    src=""
-                                    alt="full star"
-                                    className={styles.star}
-                                />
+                                <Star alt="full star" />
+                                <Star alt="full star" />
+                                <Star alt="full star" />
+                                <Star alt="full star" />
+                                <Star alt="full star" />
                             </div>
 
                             <div className={styles.text}>
