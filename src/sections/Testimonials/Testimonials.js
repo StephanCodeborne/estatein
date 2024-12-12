@@ -26,8 +26,104 @@ export default function Testimonials() {
                         their real estate needs.
                     </IntroText>
 
-                    <Slider length={}>
+                    <Slider length={3}>
                         <ul className={styles.testimonials}>
+                            <li className={styles.card}>
+                                <div className={styles.stars}>
+                                    <div className={styles.star}>
+                                        <Star alt="full star" />
+                                    </div>
+                                    <div className={styles.star}>
+                                        <Star alt="full star" />
+                                    </div>
+                                    <div className={styles.star}>
+                                        <Star alt="full star" />
+                                    </div>
+                                    <div className={styles.star}>
+                                        <Star alt="full star" />
+                                    </div>
+                                    <div className={styles.star}>
+                                        <Star alt="full star" />
+                                    </div>
+                                </div>
+
+                                <div className={styles.text}>
+                                    <h3 className={styles.title}>
+                                        Exceptional Service!
+                                    </h3>
+                                    <p className={styles.description}>
+                                        Our experience with Estatein was
+                                        outstanding. Their team's dedication and
+                                        professionalism made finding our dream
+                                        home a breeze. Highly recommended!
+                                    </p>
+                                </div>
+
+                                <div className={styles.client}>
+                                    <img
+                                        src={clientAvatar1}
+                                        alt="avatar"
+                                        className={styles.avatar}
+                                    />
+
+                                    <div className={styles.info}>
+                                        <h4 className={styles.name}>
+                                            Wade Warren
+                                        </h4>
+                                        <p className={styles.location}>
+                                            USA, California
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li className={styles.card}>
+                                <div className={styles.stars}>
+                                    <div className={styles.star}>
+                                        <Star alt="full star" />
+                                    </div>
+                                    <div className={styles.star}>
+                                        <Star alt="full star" />
+                                    </div>
+                                    <div className={styles.star}>
+                                        <Star alt="full star" />
+                                    </div>
+                                    <div className={styles.star}>
+                                        <Star alt="full star" />
+                                    </div>
+                                    <div className={styles.star}>
+                                        <Star alt="full star" />
+                                    </div>
+                                </div>
+
+                                <div className={styles.text}>
+                                    <h3 className={styles.title}>
+                                        Exceptional Service!
+                                    </h3>
+                                    <p className={styles.description}>
+                                        Our experience with Estatein was
+                                        outstanding. Their team's dedication and
+                                        professionalism made finding our dream
+                                        home a breeze. Highly recommended!
+                                    </p>
+                                </div>
+
+                                <div className={styles.client}>
+                                    <img
+                                        src={clientAvatar1}
+                                        alt="avatar"
+                                        className={styles.avatar}
+                                    />
+
+                                    <div className={styles.info}>
+                                        <h4 className={styles.name}>
+                                            Wade Warren
+                                        </h4>
+                                        <p className={styles.location}>
+                                            USA, California
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
                             <li className={styles.card}>
                                 <div className={styles.stars}>
                                     <div className={styles.star}>
