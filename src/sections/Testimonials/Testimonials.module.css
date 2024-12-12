@@ -63,3 +63,17 @@
 		opacity: 0;
 	}
 }
+
+.text {
+	.description {
+		margin-top: 0.875rem;
+		color: var(--text-color-1);
+	}
+}
+
+
+.client {
+	display: flex;
+	align-items: center;
+	gap: 0.75rem;
+}
