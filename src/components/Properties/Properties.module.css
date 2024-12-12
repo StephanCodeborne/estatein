@@ -1,12 +1,11 @@
 .properties {
-	margin-top: 5rem;
 	display: flex;
-	gap: 1.875rem;
+	gap: var(--common-gap);
 }
 
 .card {
 	flex-shrink: 0;
-	width: clamp(358px, 30vw, 512px);
+	width: var(--card-width-clamp);
 	padding: 2.5rem;
 	display: flex;
 	flex-direction: column;

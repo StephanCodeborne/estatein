@@ -1,0 +1,79 @@
+.innerContainer {
+	margin-top: var(--common-margin-top);
+}
+
+.testimonials {
+	display: flex;
+	gap: var(--common-gap);
+}
+
+.card {
+	flex-shrink: 0;
+	width: var(--card-width-clamp);
+	padding: 3.125rem;
+	display: flex;
+	flex-direction: column;
+	gap: 2.5rem;
+
+	border: var(--common-border);
+	border-radius: var(--common-radius);
+}
+
+.stars {
+	display: flex;
+	align-items: center;
+	gap: 0.625rem;
+
+	.star {
+		position: relative;
+		color: #FFE500;
+		padding: 0.625rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		svg {
+			width: 1.5rem;
+		}
+
+		&:before {
+			content: "";
+			position: absolute;
+			z-index: -1;
+			inset: 0;
+
+			border: var(--common-border);
+			border-radius: 50%;
+			background-color: var(--grey-2);
+			transform: scale(0);
+			animation: signal 1.5s ease-out 2s infinite;
+		}
+
+
+	}
+}
+
+@keyframes signal {
+	70% {
+		opacity: 1;
+	}
+
+	100% {
+		transform: scale(1);
+		opacity: 0;
+	}
+}
+
+.text {
+	.description {
+		margin-top: 0.875rem;
+		color: var(--text-color-1);
+	}
+}
+
+
+.client {
+	display: flex;
+	align-items: center;
+	gap: 0.75rem;
+}

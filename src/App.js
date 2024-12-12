@@ -3,6 +3,7 @@ import Hero from "./sections/Hero/Hero";
 import PromoBanner from "./sections/PromoBanner/PromoBanner";
 import Services from "./sections/Services/Services";
 import FeaturedProperties from "./sections/FeaturedProperties/FeaturedProperties";
+import Testimonials from "./sections/Testimonials/Testimonials";
 
 export default function App() {
     return (
@@ -12,6 +13,7 @@ export default function App() {
             <Hero />
             <Services />
             <FeaturedProperties />
+            <Testimonials />
         </>
     );
 }
