@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import { ReactComponent as Arrow } from "../../assets/icons/arrow-right.svg";
 import Button from "../Button/Button";
 
-export default function Slider({ list, children }) {
+export default function Slider({ length, children }) {
     const [currentSlide, setCurrentSlide] = useState(1);
     const [cardsPerSlide, setCardsPerSlide] = useState(1);
     const sliderRef = useRef();
@@ -27,7 +27,7 @@ export default function Slider({ list, children }) {
         return () => window.removeEventListener("resize", updateCardsPerSlide);
     }, []);
 
-    const totalSlides = list.length / cardsPerSlide;
+    const totalSlides = length / cardsPerSlide;
 
     function handlePrev() {
         setCurrentSlide((curr) => curr - 1);
