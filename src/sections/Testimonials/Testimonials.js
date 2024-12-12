@@ -1,6 +1,5 @@
 import styles from "./Testimonials.module.css";
 
-import { ReactComponent as Star } from "../../assets/icons/star.svg";
 import clientAvatar1 from "../../assets/images/client-avatar1.png";
 import clientAvatar2 from "../../assets/images/client-avatar2.png";
 import clientAvatar3 from "../../assets/images/client-avatar3.png";
