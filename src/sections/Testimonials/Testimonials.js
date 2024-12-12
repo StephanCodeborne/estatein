@@ -28,11 +28,21 @@ export default function Testimonials() {
                     <ul className={styles.testimonials}>
                         <li className={styles.card}>
                             <div className={styles.stars}>
-                                <Star alt="full star" />
-                                <Star alt="full star" />
-                                <Star alt="full star" />
-                                <Star alt="full star" />
-                                <Star alt="full star" />
+                                <div className={styles.star}>
+                                    <Star alt="full star" />
+                                </div>
+                                <div className={styles.star}>
+                                    <Star alt="full star" />
+                                </div>
+                                <div className={styles.star}>
+                                    <Star alt="full star" />
+                                </div>
+                                <div className={styles.star}>
+                                    <Star alt="full star" />
+                                </div>
+                                <div className={styles.star}>
+                                    <Star alt="full star" />
+                                </div>
                             </div>
 
                             <div className={styles.text}>
