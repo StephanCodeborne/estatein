@@ -7,7 +7,7 @@ import Button from "../../components/Button/Button";
 export default function Faq() {
     return (
         <section id="FAQ" className="section-container">
-            <InnerContainer>
+            <InnerContainer className={styles.innerContainer}>
                 <CommonContent>
                     <IntroText
                         heading="Frequently Asked Questions"
@@ -22,6 +22,22 @@ export default function Faq() {
                     </IntroText>
 
                     <ul className={styles.faq}>
+                        <li className={styles.card}>
+                            <h3>How do I search for properties on Estatein?</h3>
+                            <p>
+                                Learn how to use our user-friendly search tools
+                                to find properties that match your criteria.
+                            </p>
+                            <Button>Read More</Button>
+                        </li>
+                        <li className={styles.card}>
+                            <h3>How do I search for properties on Estatein?</h3>
+                            <p>
+                                Learn how to use our user-friendly search tools
+                                to find properties that match your criteria.
+                            </p>
+                            <Button>Read More</Button>
+                        </li>
                         <li className={styles.card}>
                             <h3>How do I search for properties on Estatein?</h3>
                             <p>
