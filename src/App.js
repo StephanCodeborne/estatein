@@ -4,6 +4,7 @@ import PromoBanner from "./sections/PromoBanner/PromoBanner";
 import Services from "./sections/Services/Services";
 import FeaturedProperties from "./sections/FeaturedProperties/FeaturedProperties";
 import Testimonials from "./sections/Testimonials/Testimonials";
+import Faq from "./sections/Faq/Faq";
 
 export default function App() {
     return (
@@ -14,6 +15,7 @@ export default function App() {
             <Services />
             <FeaturedProperties />
             <Testimonials />
+            <Faq />
         </>
     );
 }
