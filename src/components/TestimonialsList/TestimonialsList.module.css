@@ -7,9 +7,11 @@
 	flex-shrink: 0;
 	width: var(--card-width-clamp);
 	padding: 3.125rem;
+
 	display: flex;
 	flex-direction: column;
 	gap: 2.5rem;
+	justify-content: space-between;
 
 	border: var(--common-border);
 	border-radius: var(--common-radius);
@@ -61,6 +63,7 @@
 }
 
 .text {
+
 	.description {
 		margin-top: 0.875rem;
 		color: var(--text-color-1);
