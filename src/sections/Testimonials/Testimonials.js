@@ -41,6 +41,66 @@ const testimonials = [
             location: "USA, Nevada",
         },
     },
+    {
+        title: "Exceptional Service!",
+        description:
+            "Our experience with Estatein was outstanding. Their team's dedication and professionalism made finding our dream home a breeze. Highly recommended!",
+        client: {
+            avatar: clientAvatar1,
+            name: "Wade Warren",
+            location: "USA, California",
+        },
+    },
+    {
+        title: "Efficient and Reliable",
+        description:
+            "Estatein provided us with top-notch service. They helped us sell our property quickly and at a great price. We couldn't be happier with the results.",
+        client: {
+            avatar: clientAvatar2,
+            name: "Emelie Thomson",
+            location: "USA, Florida",
+        },
+    },
+    {
+        title: "Trusted Advisors",
+        description:
+            "The Estatein team guided us through the entire buying process. Their knowledge and commitment to our needs were impressive. Thank you for your support!",
+        client: {
+            avatar: clientAvatar3,
+            name: "John Mans",
+            location: "USA, Nevada",
+        },
+    },
+    {
+        title: "Exceptional Service!",
+        description:
+            "Our experience with Estatein was outstanding. Their team's dedication and professionalism made finding our dream home a breeze. Highly recommended!",
+        client: {
+            avatar: clientAvatar1,
+            name: "Wade Warren",
+            location: "USA, California",
+        },
+    },
+    {
+        title: "Efficient and Reliable",
+        description:
+            "Estatein provided us with top-notch service. They helped us sell our property quickly and at a great price. We couldn't be happier with the results.",
+        client: {
+            avatar: clientAvatar2,
+            name: "Emelie Thomson",
+            location: "USA, Florida",
+        },
+    },
+    {
+        title: "Trusted Advisors",
+        description:
+            "The Estatein team guided us through the entire buying process. Their knowledge and commitment to our needs were impressive. Thank you for your support!",
+        client: {
+            avatar: clientAvatar3,
+            name: "John Mans",
+            location: "USA, Nevada",
+        },
+    },
 ];
 
 export default function Testimonials() {
@@ -59,7 +119,7 @@ export default function Testimonials() {
                         their real estate needs.
                     </IntroText>
 
-                    <Slider length={3}>
+                    <Slider length={testimonials.length}>
                         <TestimonialsList testimonials={testimonials} />
                     </Slider>
                 </CommonContent>
