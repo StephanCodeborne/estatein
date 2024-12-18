@@ -22,55 +22,7 @@ export default function Faq() {
                         every step of the way.
                     </IntroText>
 
-                    <Slider length={9}>
-                        <ul className={styles.faq}>
-                            <Question
-                                question="How do I search for properties on Estatein?"
-                                description="Learn how to use our user-friendly search tools to find properties that match your criteria."
-                                href="#"
-                            />
-                            <Question
-                                question="What documents do I need to sell my property through Estatein?"
-                                description="Find out about the necessary documentation for listing your property with us."
-                                href="#"
-                            />
-                            <Question
-                                question="How can I contact an Estatein agent?"
-                                description="Discover the different ways you can get in touch with our experienced agents."
-                                href="#"
-                            />
-                            <Question
-                                question="How do I search for properties on Estatein?"
-                                description="Learn how to use our user-friendly search tools to find properties that match your criteria."
-                                href="#"
-                            />
-                            <Question
-                                question="What documents do I need to sell my property through Estatein?"
-                                description="Find out about the necessary documentation for listing your property with us."
-                                href="#"
-                            />
-                            <Question
-                                question="How can I contact an Estatein agent?"
-                                description="Discover the different ways you can get in touch with our experienced agents."
-                                href="#"
-                            />
-                            <Question
-                                question="How do I search for properties on Estatein?"
-                                description="Learn how to use our user-friendly search tools to find properties that match your criteria."
-                                href="#"
-                            />
-                            <Question
-                                question="What documents do I need to sell my property through Estatein?"
-                                description="Find out about the necessary documentation for listing your property with us."
-                                href="#"
-                            />
-                            <Question
-                                question="How can I contact an Estatein agent?"
-                                description="Discover the different ways you can get in touch with our experienced agents."
-                                href="#"
-                            />
-                        </ul>
-                    </Slider>
+                    <Slider length={9}></Slider>
                 </CommonContent>
             </InnerContainer>
         </section>
