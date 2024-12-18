@@ -3,7 +3,7 @@ import InnerContainer from "../../components/InnerContainer/InnerContainer";
 import CommonContent from "../../components/CommonContent/CommonContent";
 import IntroText from "../../components/IntroText/IntroText";
 import Slider from "../../components/Slider/Slider";
-import Question from "../../components/Question/Question";
+import Questions from "./Questions/Questions";
 
 export default function Faq() {
     return (
@@ -22,7 +22,9 @@ export default function Faq() {
                         every step of the way.
                     </IntroText>
 
-                    <Slider length={9}></Slider>
+                    <Slider length={9}>
+                        <Questions />
+                    </Slider>
                 </CommonContent>
             </InnerContainer>
         </section>
