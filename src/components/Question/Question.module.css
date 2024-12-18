@@ -1,0 +1,13 @@
+.card {
+	padding: 3.125rem;
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+	gap: 1.875rem;
+
+	width: var(--card-width-clamp);
+	border: var(--common-border);
+	border-radius: var(--common-radius);
+}
