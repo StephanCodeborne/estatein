@@ -2,7 +2,3 @@
 	margin-top: var(--common-margin-top);
 }
 
-.faq {
-	display: flex;
-	gap: var(--common-gap);
-}
