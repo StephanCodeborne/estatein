@@ -2,8 +2,8 @@ import styles from "./Faq.module.css";
 import InnerContainer from "../../components/InnerContainer/InnerContainer";
 import CommonContent from "../../components/CommonContent/CommonContent";
 import IntroText from "../../components/IntroText/IntroText";
-import Button from "../../components/Button/Button";
 import Slider from "../../components/Slider/Slider";
+import Question from "../../components/Question/Question";
 
 export default function Faq() {
     return (
@@ -24,39 +24,51 @@ export default function Faq() {
 
                     <Slider length={9}>
                         <ul className={styles.faq}>
-                            <li className={styles.card}>
-                                <h3>
-                                    How do I search for properties on Estatein?
-                                </h3>
-                                <p>
-                                    Learn how to use our user-friendly search
-                                    tools to find properties that match your
-                                    criteria.
-                                </p>
-                                <Button>Read More</Button>
-                            </li>
-                            <li className={styles.card}>
-                                <h3>
-                                    How do I search for properties on Estatein?
-                                </h3>
-                                <p>
-                                    Learn how to use our user-friendly search
-                                    tools to find properties that match your
-                                    criteria.
-                                </p>
-                                <Button>Read More</Button>
-                            </li>
-                            <li className={styles.card}>
-                                <h3>
-                                    How do I search for properties on Estatein?
-                                </h3>
-                                <p>
-                                    Learn how to use our user-friendly search
-                                    tools to find properties that match your
-                                    criteria.
-                                </p>
-                                <Button>Read More</Button>
-                            </li>
+                            <Question
+                                question="How do I search for properties on Estatein?"
+                                description="Learn how to use our user-friendly search tools to find properties that match your criteria."
+                                href="#"
+                            />
+                            <Question
+                                question="What documents do I need to sell my property through Estatein?"
+                                description="Find out about the necessary documentation for listing your property with us."
+                                href="#"
+                            />
+                            <Question
+                                question="How can I contact an Estatein agent?"
+                                description="Discover the different ways you can get in touch with our experienced agents."
+                                href="#"
+                            />
+                            <Question
+                                question="How do I search for properties on Estatein?"
+                                description="Learn how to use our user-friendly search tools to find properties that match your criteria."
+                                href="#"
+                            />
+                            <Question
+                                question="What documents do I need to sell my property through Estatein?"
+                                description="Find out about the necessary documentation for listing your property with us."
+                                href="#"
+                            />
+                            <Question
+                                question="How can I contact an Estatein agent?"
+                                description="Discover the different ways you can get in touch with our experienced agents."
+                                href="#"
+                            />
+                            <Question
+                                question="How do I search for properties on Estatein?"
+                                description="Learn how to use our user-friendly search tools to find properties that match your criteria."
+                                href="#"
+                            />
+                            <Question
+                                question="What documents do I need to sell my property through Estatein?"
+                                description="Find out about the necessary documentation for listing your property with us."
+                                href="#"
+                            />
+                            <Question
+                                question="How can I contact an Estatein agent?"
+                                description="Discover the different ways you can get in touch with our experienced agents."
+                                href="#"
+                            />
                         </ul>
                     </Slider>
                 </CommonContent>
