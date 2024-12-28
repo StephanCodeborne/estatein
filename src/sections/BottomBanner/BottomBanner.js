@@ -1,4 +1,8 @@
 import styles from "./BottomBanner.module.css";
+
+import shapeLeft from "../../assets/images/banner-shape-left.svg";
+import shapeRight from "../../assets/images/banner-shape-right.svg";
+
 import InnerContainer from "../../components/InnerContainer/InnerContainer";
 import IntroText from "../../components/IntroText/IntroText";
 
@@ -22,6 +26,11 @@ export default function BottomBanner() {
                     touch with our team for personalized assistance.
                 </IntroText>
             </InnerContainer>
+
+            <div className={styles.shapesContainer}>
+                <img className={styles.left} src={shapeLeft} alt="shape" />
+                <img className={styles.right} src={shapeRight} alt="shape" />
+            </div>
         </section>
     );
 }
