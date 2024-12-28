@@ -1,0 +1,32 @@
+.container {
+	margin-top: 6rem;
+	outline: var(--common-border);
+	position: relative;
+}
+
+.innerContainer {
+	padding: 6.25rem 0;
+}
+
+.text {
+	align-items: center;
+}
+
+.shapesContainer {
+	position: absolute;
+	width: 100%;
+	inset: 0;
+	z-index: -1;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+
+	.left {
+		width: 35.375rem;
+	}
+
+	.right {
+		width: 45.313rem;
+	}
+}
