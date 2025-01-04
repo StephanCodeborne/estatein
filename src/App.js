@@ -6,6 +6,7 @@ import FeaturedProperties from "./sections/FeaturedProperties/FeaturedProperties
 import Testimonials from "./sections/Testimonials/Testimonials";
 import Faq from "./sections/Faq/Faq";
 import BottomBanner from "./sections/BottomBanner/BottomBanner";
+import Footer from "./sections/Footer/Footer";
 
 export default function App() {
     return (
@@ -18,6 +19,7 @@ export default function App() {
             <Testimonials />
             <Faq />
             <BottomBanner />
+            <Footer />
         </>
     );
 }
