@@ -1,4 +1,8 @@
 import styles from "./Footer.module.css";
+
+import send from "../../assets/icons/send.svg";
+import logo from "../../assets/images/logo.svg";
+
 import InnerContainer from "../../components/InnerContainer/InnerContainer";
 
 export default function Footer() {
@@ -6,7 +10,11 @@ export default function Footer() {
         <footer className="section-container">
             <InnerContainer className={styles.innerContainer}>
                 <form className={styles.form}>
-                    <img src="" alt="estatein logo" className={styles.logo} />
+                    <img
+                        src={logo}
+                        alt="estatein logo"
+                        className={styles.logo}
+                    />
 
                     <div className={styles.inputContainer}>
                         <input
@@ -15,6 +23,9 @@ export default function Footer() {
                             name="email"
                             placeholder="Enter Your Email"
                         />
+                        <button className={styles.send} type="submit">
+                            <img src={send} alt="send" />
+                        </button>
                     </div>
                 </form>
 
