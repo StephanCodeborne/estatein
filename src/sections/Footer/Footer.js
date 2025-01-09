@@ -11,7 +11,7 @@ import InnerContainer from "../../components/InnerContainer/InnerContainer";
 
 export default function Footer() {
     return (
-        <footer className="section-container">
+        <footer className={`section-container ${styles.flexColumn}`}>
             <InnerContainer className={styles.innerContainer}>
                 <form className={styles.form}>
                     <img
@@ -138,25 +138,27 @@ export default function Footer() {
             </InnerContainer>
 
             <div className={styles.footerInfo}>
-                <div className={styles.text}>
-                    <span>@2023 Estatein. All Rights Reserved.</span>
-                    <a href="#">Terms & Conditions</a>
-                </div>
+                <InnerContainer className={styles.infoContainer}>
+                    <div className={styles.text}>
+                        <span>@2023 Estatein. All Rights Reserved.</span>
+                        <a href="#">Terms & Conditions</a>
+                    </div>
 
-                <div className={styles.media}>
-                    <a href="#">
-                        <FacebookIcon alt="Facebook" />
-                    </a>
-                    <a href="#">
-                        <LinkedinIcon alt="Linkedin" />
-                    </a>
-                    <a href="#">
-                        <TwitterIcon alt="Twitter" />
-                    </a>
-                    <a href="#">
-                        <YoutubeIcon alt="Youtube" />
-                    </a>
-                </div>
+                    <div className={styles.media}>
+                        <a href="#">
+                            <FacebookIcon alt="Facebook" />
+                        </a>
+                        <a href="#">
+                            <LinkedinIcon alt="Linkedin" />
+                        </a>
+                        <a href="#">
+                            <TwitterIcon alt="Twitter" />
+                        </a>
+                        <a href="#">
+                            <YoutubeIcon alt="Youtube" />
+                        </a>
+                    </div>
+                </InnerContainer>
             </div>
         </footer>
     );
