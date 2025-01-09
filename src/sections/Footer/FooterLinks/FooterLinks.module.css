@@ -1,0 +1,23 @@
+.linksContainer {
+	display: flex;
+	gap: 6.25rem;
+}
+
+.links {
+	h4 {
+		color: #ffffff95;
+		font-weight: 500;
+	}
+
+	ul {
+		margin-top: 1.875rem;
+
+		display: flex;
+		flex-direction: column;
+		gap: 1.25rem;
+
+		li:hover {
+			text-decoration: underline;
+		}
+	}
+}
