@@ -8,8 +8,6 @@
 	justify-content: space-between;
 }
 
-
-
 .inputContainer {
 	margin-top: 1.875rem;
 	position: relative;
@@ -40,49 +38,6 @@
 
 		img {
 			width: 1.5rem;
-		}
-	}
-}
-
-
-
-
-.footerInfo {
-	background-color: var(--grey-2);
-
-	.infoContainer {
-		padding: 1.625rem 0;
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-
-		.text {
-			display: flex;
-			gap: 2.375rem;
-
-			a:hover {
-				text-decoration: underline;
-			}
-		}
-
-		.media {
-			display: flex;
-			gap: 0.625rem;
-
-			a {
-				padding: 0.875rem;
-				background-color: var(--grey-1);
-				border-radius: 50%;
-				transition: background-color 0.1s ease-in-out ;
-
-				&:hover {
-					background-color: #ffffff;
-					color: var(--grey-2);
-				}
-			}
-			svg {
-				width: 1.5rem;
-			}
 		}
 	}
 }
