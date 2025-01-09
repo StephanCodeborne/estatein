@@ -2,13 +2,10 @@ import styles from "./Footer.module.css";
 
 import send from "../../assets/icons/send.svg";
 import logo from "../../assets/images/logo.svg";
-import { ReactComponent as FacebookIcon } from "../../assets/icons/facebook.svg";
-import { ReactComponent as LinkedinIcon } from "../../assets/icons/linkedin.svg";
-import { ReactComponent as TwitterIcon } from "../../assets/icons/twitter.svg";
-import { ReactComponent as YoutubeIcon } from "../../assets/icons/youtube.svg";
 
 import InnerContainer from "../../components/InnerContainer/InnerContainer";
 import FooterLinks from "./FooterLinks/FooterLinks";
+import FooterInfo from "./FooterInfo/FooterInfo";
 
 export default function Footer() {
     return (
@@ -36,30 +33,7 @@ export default function Footer() {
 
                 <FooterLinks />
             </InnerContainer>
-
-            <div className={styles.footerInfo}>
-                <InnerContainer className={styles.infoContainer}>
-                    <div className={styles.text}>
-                        <span>@2023 Estatein. All Rights Reserved.</span>
-                        <a href="#">Terms & Conditions</a>
-                    </div>
-
-                    <div className={styles.media}>
-                        <a href="#">
-                            <FacebookIcon alt="Facebook" />
-                        </a>
-                        <a href="#">
-                            <LinkedinIcon alt="Linkedin" />
-                        </a>
-                        <a href="#">
-                            <TwitterIcon alt="Twitter" />
-                        </a>
-                        <a href="#">
-                            <YoutubeIcon alt="Youtube" />
-                        </a>
-                    </div>
-                </InnerContainer>
-            </div>
+            <FooterInfo />
         </footer>
     );
 }
