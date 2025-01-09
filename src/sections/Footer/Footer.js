@@ -8,6 +8,7 @@ import { ReactComponent as TwitterIcon } from "../../assets/icons/twitter.svg";
 import { ReactComponent as YoutubeIcon } from "../../assets/icons/youtube.svg";
 
 import InnerContainer from "../../components/InnerContainer/InnerContainer";
+import FooterLinks from "./FooterLinks/FooterLinks";
 
 export default function Footer() {
     return (
@@ -33,108 +34,7 @@ export default function Footer() {
                     </div>
                 </form>
 
-                <div className={styles.linksContainer}>
-                    <div className={styles.links}>
-                        <h4>Home</h4>
-                        <ul className={styles.links}>
-                            <li>
-                                <a href="#">Hero Section</a>
-                            </li>
-                            <li>
-                                <a href="#">Features</a>
-                            </li>
-                            <li>
-                                <a href="#">Properties</a>
-                            </li>
-                            <li>
-                                <a href="#">Testimonials</a>
-                            </li>
-                            <li>
-                                <a href="#">FAQ’s</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div className={styles.links}>
-                        <h4>Home</h4>
-                        <ul className={styles.links}>
-                            <li>
-                                <a href="#">Hero Section</a>
-                            </li>
-                            <li>
-                                <a href="#">Features</a>
-                            </li>
-                            <li>
-                                <a href="#">Properties</a>
-                            </li>
-                            <li>
-                                <a href="#">Testimonials</a>
-                            </li>
-                            <li>
-                                <a href="#">FAQ’s</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div className={styles.links}>
-                        <h4>Home</h4>
-                        <ul className={styles.links}>
-                            <li>
-                                <a href="#">Hero Section</a>
-                            </li>
-                            <li>
-                                <a href="#">Features</a>
-                            </li>
-                            <li>
-                                <a href="#">Properties</a>
-                            </li>
-                            <li>
-                                <a href="#">Testimonials</a>
-                            </li>
-                            <li>
-                                <a href="#">FAQ’s</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div className={styles.links}>
-                        <h4>Home</h4>
-                        <ul className={styles.links}>
-                            <li>
-                                <a href="#">Hero Section</a>
-                            </li>
-                            <li>
-                                <a href="#">Features</a>
-                            </li>
-                            <li>
-                                <a href="#">Properties</a>
-                            </li>
-                            <li>
-                                <a href="#">Testimonials</a>
-                            </li>
-                            <li>
-                                <a href="#">FAQ’s</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div className={styles.links}>
-                        <h4>Home</h4>
-                        <ul className={styles.links}>
-                            <li>
-                                <a href="#">Hero Section</a>
-                            </li>
-                            <li>
-                                <a href="#">Features</a>
-                            </li>
-                            <li>
-                                <a href="#">Properties</a>
-                            </li>
-                            <li>
-                                <a href="#">Testimonials</a>
-                            </li>
-                            <li>
-                                <a href="#">FAQ’s</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                <FooterLinks />
             </InnerContainer>
 
             <div className={styles.footerInfo}>
